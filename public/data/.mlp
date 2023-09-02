@@ -1,0 +1,312 @@
+<!DOCTYPE MeshLabDocument>
+<MeshLabProject>
+ <MeshGroup>
+  <MLMesh visible="1" filename="gotickyaltanok.obj" label="gotickyaltanok.obj">
+   <MLMatrix44>
+1 0 0 0 
+0 1 0 0 
+0 0 1 0 
+0 0 0 1 
+</MLMatrix44>
+   <RenderingOption pointSize="3" wireColor="64 64 64 255" boxColor="234 234 234 255" solidColor="192 192 192 255" wireWidth="1" pointColor="131 149 69 255">000111010000000000000000000000000000000010100000000100111010110000001101</RenderingOption>
+  </MLMesh>
+  <MLMesh visible="1" filename="kalvaria.obj" label="kalvaria.obj">
+   <MLMatrix44>
+1 0 0 0 
+0 1 0 0 
+0 0 1 0 
+0 0 0 1 
+</MLMatrix44>
+   <RenderingOption pointSize="3" wireColor="64 64 64 255" boxColor="234 234 234 255" solidColor="192 192 192 255" wireWidth="1" pointColor="131 149 69 255">000111010000000000000000000000000000000010100000000100111010110000001101</RenderingOption>
+  </MLMesh>
+  <MLMesh visible="1" filename="stromhorskypark.obj" label="stromhorskypark.obj">
+   <MLMatrix44>
+1 0 0 0 
+0 1 0 0 
+0 0 1 0 
+0 0 0 1 
+</MLMatrix44>
+   <RenderingOption pointSize="3" wireColor="64 64 64 255" boxColor="234 234 234 255" solidColor="192 192 192 255" wireWidth="1" pointColor="131 149 69 255">000111010000000000000000000000000000000010100000000100111010110000001101</RenderingOption>
+  </MLMesh>
+  <MLMesh visible="1" filename="trubkakramare.obj" label="trubkakramare.obj">
+   <MLMatrix44>
+1 0 0 0 
+0 1 0 0 
+0 0 1 0 
+0 0 0 1 
+</MLMatrix44>
+   <RenderingOption pointSize="3" wireColor="64 64 64 255" boxColor="234 234 234 255" solidColor="192 192 192 255" wireWidth="1" pointColor="131 149 69 255">000111010000000000000000000000000000000010100000000100111010110000001101</RenderingOption>
+  </MLMesh>
+  <MLMesh visible="1" filename="plechkramare.obj" label="plechkramare.obj">
+   <MLMatrix44>
+1 0 0 0 
+0 1 0 0 
+0 0 1 0 
+0 0 0 1 
+</MLMatrix44>
+   <RenderingOption pointSize="3" wireColor="64 64 64 255" boxColor="234 234 234 255" solidColor="192 192 192 255" wireWidth="1" pointColor="131 149 69 255">000111010000000000000000000000000000000010100000000100111010110000001101</RenderingOption>
+  </MLMesh>
+  <MLMesh visible="1" filename="vodnybicykel.obj" label="vodnybicykel.obj">
+   <MLMatrix44>
+1 0 0 0 
+0 1 0 0 
+0 0 1 0 
+0 0 0 1 
+</MLMatrix44>
+   <RenderingOption pointSize="3" wireColor="64 64 64 255" boxColor="234 234 234 255" solidColor="192 192 192 255" wireWidth="1" pointColor="131 149 69 255">000111010000000000000000000000000000000010100000000100111010110000001101</RenderingOption>
+  </MLMesh>
+  <MLMesh visible="1" filename="prazska.obj" label="prazska.obj">
+   <MLMatrix44>
+1 0 0 0 
+0 1 0 0 
+0 0 1 0 
+0 0 0 1 
+</MLMatrix44>
+   <RenderingOption pointSize="3" wireColor="64 64 64 255" boxColor="234 234 234 255" solidColor="192 192 192 255" wireWidth="1" pointColor="131 149 69 255">000111010000000000000000000000000000000010100000000100111010110000001101</RenderingOption>
+  </MLMesh>
+  <MLMesh visible="1" filename="metro.obj" label="metro.obj">
+   <MLMatrix44>
+1 0 0 0 
+0 1 0 0 
+0 0 1 0 
+0 0 0 1 
+</MLMatrix44>
+   <RenderingOption pointSize="3" wireColor="64 64 64 255" boxColor="234 234 234 255" solidColor="192 192 192 255" wireWidth="1" pointColor="131 149 69 255">000111010000000000000000000000000000000010100000000100111010110000001101</RenderingOption>
+  </MLMesh>
+  <MLMesh visible="1" filename="hrdzavyplot.obj" label="hrdzavyplot.obj">
+   <MLMatrix44>
+1 0 0 0 
+0 1 0 0 
+0 0 1 0 
+0 0 0 1 
+</MLMatrix44>
+   <RenderingOption pointSize="3" wireColor="64 64 64 255" boxColor="234 234 234 255" solidColor="192 192 192 255" wireWidth="1" pointColor="131 149 69 255">000111010000000000000000000000000000000010100000000100111010110000001101</RenderingOption>
+  </MLMesh>
+  <MLMesh visible="1" filename="apollo.obj" label="apollo.obj">
+   <MLMatrix44>
+1 0 0 0 
+0 1 0 0 
+0 0 1 0 
+0 0 0 1 
+</MLMatrix44>
+   <RenderingOption pointSize="3" wireColor="64 64 64 255" boxColor="234 234 234 255" solidColor="192 192 192 255" wireWidth="1" pointColor="131 149 69 255">000111010000000000000000000000000000000010100000000100111010110000001101</RenderingOption>
+  </MLMesh>
+  <MLMesh visible="1" filename="snp.obj" label="snp.obj">
+   <MLMatrix44>
+1 0 0 0 
+0 1 0 0 
+0 0 1 0 
+0 0 0 1 
+</MLMatrix44>
+   <RenderingOption pointSize="3" wireColor="64 64 64 255" boxColor="234 234 234 255" solidColor="192 192 192 255" wireWidth="1" pointColor="131 149 69 255">000111010000000000000000000000000000000010100000000100111010110000001101</RenderingOption>
+  </MLMesh>
+  <MLMesh visible="1" filename="uviazanielode.obj" label="uviazanielode.obj">
+   <MLMatrix44>
+1 0 0 0 
+0 1 0 0 
+0 0 1 0 
+0 0 0 1 
+</MLMatrix44>
+   <RenderingOption pointSize="3" wireColor="64 64 64 255" boxColor="234 234 234 255" solidColor="192 192 192 255" wireWidth="1" pointColor="131 149 69 255">000111010000000000000000000000000000000010100000000100111010110000001101</RenderingOption>
+  </MLMesh>
+  <MLMesh visible="1" filename="lavickabetonrastliny.obj" label="lavickabetonrastliny.obj">
+   <MLMatrix44>
+1 0 0 0 
+0 1 0 0 
+0 0 1 0 
+0 0 0 1 
+</MLMatrix44>
+   <RenderingOption pointSize="3" wireColor="64 64 64 255" boxColor="234 234 234 255" solidColor="192 192 192 255" wireWidth="1" pointColor="131 149 69 255">000111010000000000000000000000000000000010100000000100111010110000001101</RenderingOption>
+  </MLMesh>
+  <MLMesh visible="1" filename="sprejebeton.obj" label="sprejebeton.obj">
+   <MLMatrix44>
+1 0 0 0 
+0 1 0 0 
+0 0 1 0 
+0 0 0 1 
+</MLMatrix44>
+   <RenderingOption pointSize="3" wireColor="64 64 64 255" boxColor="234 234 234 255" solidColor="192 192 192 255" wireWidth="1" pointColor="131 149 69 255">000111010000000000000000000000000000000010100000000100111010110000001101</RenderingOption>
+  </MLMesh>
+  <MLMesh visible="1" filename="sprejekriky.obj" label="sprejekriky.obj">
+   <MLMatrix44>
+1 0 0 0 
+0 1 0 0 
+0 0 1 0 
+0 0 0 1 
+</MLMatrix44>
+   <RenderingOption pointSize="3" wireColor="64 64 64 255" boxColor="234 234 234 255" solidColor="192 192 192 255" wireWidth="1" pointColor="131 149 69 255">000111010000000000000000000000000000000010100000000100111010110000001101</RenderingOption>
+  </MLMesh>
+  <MLMesh visible="1" filename="stromnasedenie.obj" label="stromnasedenie.obj">
+   <MLMatrix44>
+1 0 0 0 
+0 1 0 0 
+0 0 1 0 
+0 0 0 1 
+</MLMatrix44>
+   <RenderingOption pointSize="3" wireColor="64 64 64 255" boxColor="234 234 234 255" solidColor="192 192 192 255" wireWidth="1" pointColor="131 149 69 255">000111010000000000000000000000000000000010100000000100111010110000001101</RenderingOption>
+  </MLMesh>
+  <MLMesh visible="1" filename="retaze.obj" label="retaze.obj">
+   <MLMatrix44>
+1 0 0 0 
+0 1 0 0 
+0 0 1 0 
+0 0 0 1 
+</MLMatrix44>
+   <RenderingOption pointSize="3" wireColor="64 64 64 255" boxColor="234 234 234 255" solidColor="192 192 192 255" wireWidth="1" pointColor="131 149 69 255">000111010000000000000000000000000000000010100000000100111010110000001101</RenderingOption>
+  </MLMesh>
+  <MLMesh visible="1" filename="trznica.obj" label="trznica.obj">
+   <MLMatrix44>
+1 0 0 0 
+0 1 0 0 
+0 0 1 0 
+0 0 0 1 
+</MLMatrix44>
+   <RenderingOption pointSize="3" wireColor="64 64 64 255" boxColor="234 234 234 255" solidColor="192 192 192 255" wireWidth="1" pointColor="131 149 69 255">000111010000000000000000000000000000000010100000000100111010110000001101</RenderingOption>
+  </MLMesh>
+  <MLMesh visible="1" filename="staredvere.obj" label="staredvere.obj">
+   <MLMatrix44>
+1 0 0 0 
+0 1 0 0 
+0 0 1 0 
+0 0 0 1 
+</MLMatrix44>
+   <RenderingOption pointSize="3" wireColor="64 64 64 255" boxColor="234 234 234 255" solidColor="192 192 192 255" wireWidth="1" pointColor="131 149 69 255">000111010000000000000000000000000000000010100000000100111010110000001101</RenderingOption>
+  </MLMesh>
+  <MLMesh visible="1" filename="promenada.obj" label="promenada.obj">
+   <MLMatrix44>
+1 0 0 0 
+0 1 0 0 
+0 0 1 0 
+0 0 0 1 
+</MLMatrix44>
+   <RenderingOption pointSize="3" wireColor="64 64 64 255" boxColor="234 234 234 255" solidColor="192 192 192 255" wireWidth="1" pointColor="131 149 69 255">000111010000000000000000000000000000000010100000000100111010110000001101</RenderingOption>
+  </MLMesh>
+  <MLMesh visible="1" filename="pneumatiky.obj" label="pneumatiky.obj">
+   <MLMatrix44>
+1 0 0 0 
+0 1 0 0 
+0 0 1 0 
+0 0 0 1 
+</MLMatrix44>
+   <RenderingOption pointSize="3" wireColor="64 64 64 255" boxColor="234 234 234 255" solidColor="192 192 192 255" wireWidth="1" pointColor="131 149 69 255">000111010000000000000000000000000000000010100000000100111010110000001101</RenderingOption>
+  </MLMesh>
+  <MLMesh visible="1" filename="pamatnik-mec.obj" label="pamatnik-mec.obj">
+   <MLMatrix44>
+1 0 0 0 
+0 1 0 0 
+0 0 1 0 
+0 0 0 1 
+</MLMatrix44>
+   <RenderingOption pointSize="3" wireColor="64 64 64 255" boxColor="234 234 234 255" solidColor="192 192 192 255" wireWidth="1" pointColor="131 149 69 255">000111010000000000000000000000000000000010100000000100111010110000001101</RenderingOption>
+  </MLMesh>
+  <MLMesh visible="1" filename="pamatnik-kruh.obj" label="pamatnik-kruh.obj">
+   <MLMatrix44>
+1 0 0 0 
+0 1 0 0 
+0 0 1 0 
+0 0 0 1 
+</MLMatrix44>
+   <RenderingOption pointSize="3" wireColor="64 64 64 255" boxColor="234 234 234 255" solidColor="192 192 192 255" wireWidth="1" pointColor="131 149 69 255">000111010000000000000000000000000000000010100000000100111010110000001101</RenderingOption>
+  </MLMesh>
+  <MLMesh visible="1" filename="pamatnik-deti.obj" label="pamatnik-deti.obj">
+   <MLMatrix44>
+1 0 0 0 
+0 1 0 0 
+0 0 1 0 
+0 0 0 1 
+</MLMatrix44>
+   <RenderingOption pointSize="3" wireColor="64 64 64 255" boxColor="234 234 234 255" solidColor="192 192 192 255" wireWidth="1" pointColor="131 149 69 255">000111010000000000000000000000000000000010100000000100111010110000001101</RenderingOption>
+  </MLMesh>
+  <MLMesh visible="1" filename="lavickaistropolis.obj" label="lavickaistropolis.obj">
+   <MLMatrix44>
+1 0 0 0 
+0 1 0 0 
+0 0 1 0 
+0 0 0 1 
+</MLMatrix44>
+   <RenderingOption pointSize="3" wireColor="64 64 64 255" boxColor="234 234 234 255" solidColor="192 192 192 255" wireWidth="1" pointColor="131 149 69 255">000111010000000000000000000000000000000010100000000100111010110000001101</RenderingOption>
+  </MLMesh>
+  <MLMesh visible="1" filename="kosslobody.obj" label="kosslobody.obj">
+   <MLMatrix44>
+1 0 0 0 
+0 1 0 0 
+0 0 1 0 
+0 0 0 1 
+</MLMatrix44>
+   <RenderingOption pointSize="3" wireColor="64 64 64 255" boxColor="234 234 234 255" solidColor="192 192 192 255" wireWidth="1" pointColor="131 149 69 255">000111010000000000000000000000000000000010100000000100111010110000001101</RenderingOption>
+  </MLMesh>
+  <MLMesh visible="1" filename="elektrikaskodovka.obj" label="elektrikaskodovka.obj">
+   <MLMatrix44>
+1 0 0 0 
+0 1 0 0 
+0 0 1 0 
+0 0 0 1 
+</MLMatrix44>
+   <RenderingOption pointSize="3" wireColor="64 64 64 255" boxColor="234 234 234 255" solidColor="192 192 192 255" wireWidth="1" pointColor="131 149 69 255">000111010000000000000000000000000000000010100000000100111010110000001101</RenderingOption>
+  </MLMesh>
+  <MLMesh visible="1" filename="elektrikajakubovo.obj" label="elektrikajakubovo.obj">
+   <MLMatrix44>
+1 0 0 0 
+0 1 0 0 
+0 0 1 0 
+0 0 0 1 
+</MLMatrix44>
+   <RenderingOption pointSize="3" wireColor="64 64 64 255" boxColor="234 234 234 255" solidColor="192 192 192 255" wireWidth="1" pointColor="131 149 69 255">000111010000000000000000000000000000000010100000000100111010110000001101</RenderingOption>
+  </MLMesh>
+  <MLMesh visible="1" filename="kachlickyprirodovedecka.obj" label="kachlickyprirodovedecka.obj">
+   <MLMatrix44>
+1 0 0 0 
+0 1 0 0 
+0 0 1 0 
+0 0 0 1 
+</MLMatrix44>
+   <RenderingOption pointSize="3" wireColor="64 64 64 255" boxColor="234 234 234 255" solidColor="192 192 192 255" wireWidth="1" pointColor="131 149 69 255">000111010000000000000000000000000000000010100000000100111010110000001101</RenderingOption>
+  </MLMesh>
+  <MLMesh visible="1" filename="dvaaviacstromov.obj" label="dvaaviacstromov.obj">
+   <MLMatrix44>
+1 0 0 0 
+0 1 0 0 
+0 0 1 0 
+0 0 0 1 
+</MLMatrix44>
+   <RenderingOption pointSize="3" wireColor="64 64 64 255" boxColor="234 234 234 255" solidColor="192 192 192 255" wireWidth="1" pointColor="131 149 69 255">000111010000000000000000000000000000000010100000000100111010110000001101</RenderingOption>
+  </MLMesh>
+  <MLMesh visible="1" filename="lampa.obj" label="lampa.obj">
+   <MLMatrix44>
+1 0 0 0 
+0 1 0 0 
+0 0 1 0 
+0 0 0 1 
+</MLMatrix44>
+   <RenderingOption pointSize="3" wireColor="64 64 64 255" boxColor="234 234 234 255" solidColor="192 192 192 255" wireWidth="1" pointColor="131 149 69 255">000111010000000000000000000000000000000010100000000100111010110000001101</RenderingOption>
+  </MLMesh>
+  <MLMesh visible="1" filename="kvetinacnabetone.obj" label="kvetinacnabetone.obj">
+   <MLMatrix44>
+1 0 0 0 
+0 1 0 0 
+0 0 1 0 
+0 0 0 1 
+</MLMatrix44>
+   <RenderingOption pointSize="3" wireColor="64 64 64 255" boxColor="234 234 234 255" solidColor="192 192 192 255" wireWidth="1" pointColor="131 149 69 255">000111010000000000000000000000000000000010100000000100111010110000001101</RenderingOption>
+  </MLMesh>
+  <MLMesh visible="1" filename="tehlovystlpik.obj" label="tehlovystlpik.obj">
+   <MLMatrix44>
+1 0 0 0 
+0 1 0 0 
+0 0 1 0 
+0 0 0 1 
+</MLMatrix44>
+   <RenderingOption pointSize="3" wireColor="64 64 64 255" boxColor="234 234 234 255" solidColor="192 192 192 255" wireWidth="1" pointColor="131 149 69 255">000111010000000000000000000000000000000010100000000100111010110000001101</RenderingOption>
+  </MLMesh>
+  <MLMesh visible="1" filename="kmenakonike.obj" label="kmenakonike.obj">
+   <MLMatrix44>
+1 0 0 0 
+0 1 0 0 
+0 0 1 0 
+0 0 0 1 
+</MLMatrix44>
+   <RenderingOption pointSize="3" wireColor="64 64 64 255" boxColor="234 234 234 255" solidColor="192 192 192 255" wireWidth="1" pointColor="131 149 69 255">000111010000000000000000000000000000000010100000000100111010110000001101</RenderingOption>
+  </MLMesh>
+ </MeshGroup>
+ <RasterGroup/>
+</MeshLabProject>

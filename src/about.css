@@ -1,0 +1,182 @@
+@font-face {
+  font-family: KyivTypeSans-Bold;
+  src: url(./font/KyivTypeSans-Bold.woff);
+}
+
+@font-face {
+  font-family: KyivTypeSans-Medium;
+  src: url(./font/KyivTypeSans-Medium.woff);
+}
+
+/* main {
+  height: 100vh;
+  height: calc(100vh - var(--vh-offset, 0px));
+} */
+
+.info-container {
+  display:inline-block;
+  flex-direction: column;
+  text-align: left;
+  margin-top: 6vh;
+  /* margin-left: 45vh; */
+  width: 50%;
+}
+
+.m-info-container {
+  display:inline-block;
+  flex-direction: column;
+  text-align: left;
+  width: 90%;
+}
+
+.instruction-container {
+  display:inline-block;
+  flex-direction: column;
+  text-align: left;
+  position: fixed;
+  bottom: 3vh;
+  left: 53%;
+}
+
+.m-instruction-container {
+  display:inline-block;
+  flex-direction: column;
+  text-align: left;
+  position: fixed;
+  bottom: 2vh;
+  left: 2vh;
+}
+
+.instruction{
+  color: white;
+  font-family: KyivTypeSans-Bold;
+  font-size: 2.4vh;
+  margin-bottom: 2vh;
+  opacity: 1;
+}
+
+.m-instruction{
+  color: white;
+  font-family: KyivTypeSans-Bold;
+  font-size: 2vh;
+  margin-bottom: 2vh;
+  opacity: 1;
+}
+
+.desc{
+  font-family: KyivTypeSans-Medium;
+  /* opacity: 0.4; */
+}
+
+/* BACK and LOGO*/
+
+.top-container {
+  display:inline-block;
+  text-align: left;
+  position: fixed;
+  top: 3vh;
+  left: 3vh;
+  width: 100%;
+}
+
+.m-top-container {
+  display:inline-block;
+  text-align: left;
+  position: fixed;
+  top: 2vh;
+  left: 2vh;
+  width: 100%;
+}
+
+.back {
+  background: url(./svg/back.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 2.4vh;
+  width: 10vh;
+  opacity: 0.4;
+}
+
+.m-back {
+  background: url(./svg/back.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 3vh;
+  width: 10vh;
+  opacity: 0.4;
+}
+
+.back:hover, .back:focus, .back:active {
+  background: url(./svg/back-active.svg);
+  background-repeat: no-repeat;
+  opacity: 1;
+}
+
+.ordinaments-logo {
+  background: url(./gif/ordinaments.gif);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 16vh;
+  width: 70vh;
+}
+
+.m-ordinaments-logo {
+  background: url(./gif/ordinaments.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 18vh;
+  margin-left: -4vh;
+}
+
+/* CIRCLE */
+
+.c {
+    display: inline-block;
+    vertical-align: middle;
+    color: #fff;
+    width: 0.8vh;
+    height: 0.8vh;
+    border-radius: 50%;
+    border-width: 0.6vh;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0);
+  }
+  
+  .c-unknown {
+    border-color: rgba(255, 255, 255);
+    opacity: 0.3;
+  }
+  
+  .c-active {
+    background-color: rgba(255, 255, 255);
+    opacity: 1;
+  }
+  
+  .c-discovered {
+    background-color: rgba(255, 255, 255);
+    opacity: 0.4;
+  }
+  
+  .c-highlighted {
+    border-color: rgba(255, 255, 255);
+    opacity: 1;
+  }
+
+  .music {
+    display: inline-block;
+    vertical-align: bottom;
+    background: url(./gif/musicmode1.gif);
+    background-size: cover;
+    height: 4vh;
+    width: 4vh;
+  }
+
+  .link{
+    text-decoration: none;
+    color:white;
+    opacity: 0.4;
+  }
+
+  .link:hover{
+    opacity: 1;
+  }

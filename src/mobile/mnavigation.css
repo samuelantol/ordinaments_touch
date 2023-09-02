@@ -1,0 +1,231 @@
+@font-face {
+  font-family: KyivTypeSans-Bold;
+  src: url(../font/KyivTypeSans-Bold.woff);
+}
+
+@font-face {
+  font-family: KyivTypeSans-Medium;
+  src: url(../font/KyivTypeSans-Medium.woff);
+}
+
+body, html { 
+  overflow-x: hidden; 
+  overflow-y: hidden;
+}
+
+/* main {
+  min-height: 100vh;
+  min-height: calc(100vh - var(--browser-address-bar, 0px));
+} */
+
+/* NATURE */
+
+.mcategory-nature {
+  background: url(../svg/nature.svg);
+  background-repeat: no-repeat;
+  float:left;
+  vertical-align: top;
+  height: 5.8vh;
+  width: 17vh;
+  opacity: 0.4;
+  margin-top: -.5vh;
+}
+
+.mcategory-nature-active {
+  background: url(../svg/nature-active.svg);
+  background-repeat: no-repeat;
+  opacity: 1.0;
+}
+
+/* INDUSTRIAL */
+
+.mcategory-industrial {
+  background: url(../svg/industrial.svg);
+  background-repeat: no-repeat;
+  float:left;
+  vertical-align: top;
+  height: 5.8vh;
+  width: 23vh;
+  opacity: 0.4;
+  margin-top: -1.5vh;
+}
+
+.mcategory-industrial-active {
+  background: url(../svg/industrial-active.svg);
+  background-repeat: no-repeat;
+  opacity: 1.0;
+}
+
+/* WATERSIDE */
+
+.mcategory-waterside {
+  background: url(../svg/waterside.svg);
+  background-repeat: no-repeat;
+  float:left;
+  vertical-align: top;
+  /* cursor: pointer; */
+	margin-right: 2vh;
+  height: 5.8vh;
+  width: 25vh;
+  opacity: 0.4;
+  margin-top: -1.5vh;
+}
+
+.mcategory-waterside-active {
+  background: url(../svg/waterside-active.svg);
+  background-repeat: no-repeat;
+  opacity: 1.0;
+}
+
+/* STREET */
+
+.mcategory-street {
+  background: url(../svg/street.svg);
+  background-repeat: no-repeat;
+  float:left;
+  vertical-align: top;
+  /* cursor: pointer; */
+	margin-right: 2vh;
+  height: 5.8vh;
+  width: 15vh;
+  opacity: 0.4;
+  margin-top: -1.5vh;
+}
+
+.mcategory-street-active {
+  background: url(../svg/street-active.svg);
+  background-repeat: no-repeat;
+  opacity: 1.0;
+}
+
+/* CATEGORIES WRAP */
+
+.mcats {
+  display:inline-block;
+  flex-direction: column;
+	text-align: left;
+	height: 100%;
+  width: 25vh;
+	padding-left: 2vh;
+  position: relative;
+}
+
+/* MAP & HIGHLIGHT TITLE & MUSIC BUTTON */
+
+.m-map {
+  color: white;
+  font-family: KyivTypeSans-Bold;
+  font-size: 1vh;
+  opacity: 0.6;
+}
+
+.m-highlight {
+  color: white;
+  font-family: KyivTypeSans-Bold;
+  font-size: 1vh;
+  opacity: 0.6;
+  margin-top: 1vh;
+  margin-bottom: -1vh;
+}
+
+/* CIRCLE */
+
+.mcircle {
+  display: inline-block;
+  vertical-align: middle;
+  /* cursor: pointer; */
+  color: #fff;
+	width: 1.3vh;
+	height: 1.3vh;
+	margin-right: 0.7vh;
+  margin-bottom: 0.7vh;
+  border-radius: 50%;
+  border-width: 0.7vh;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0);
+}
+
+.mcircle:hover, .mcircle:focus, .mcircle:active {
+  background-color: #fff;
+}
+
+.mcircle-unknown {
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+.mcircle-active {
+  background-color: rgba(255, 255, 255, 1);;
+}
+
+.mcircle-discovered {
+  background-color: rgba(255, 255, 255, 0.4);;
+}
+
+.mcircle-highlighted {
+  border-color: rgba(255, 255, 255, 1);
+}
+
+.mcircle-empty {
+  border-color: rgba(0, 0, 0, 0);
+  pointer-events: none;
+}
+
+/* NAVIGATION WRAP */
+
+.mnavigation {
+	text-align: left;
+	height: 100%;
+	padding: 20.5vh 2vh;
+  position: absolute;
+}
+
+/* SECONDARY BUTTONS */
+
+.msecondary {
+  display:inline-block;
+  flex-direction: column;
+  text-align: left;
+  position: fixed;
+  bottom: 1vh;
+  left: 2vh;
+}
+
+.msecondary-map {
+  background: url(../svg/navigate.svg);
+  background-repeat: no-repeat;
+  height: 2.7vh;
+  width: 100%;
+  margin-bottom: 0.5vh;
+  opacity: 0.4;
+}
+
+.msecondary-map:hover, .msecondary-map:focus, .msecondary-map:active {
+  background: url(../svg/navigate-active.svg);
+  background-repeat: no-repeat;
+  opacity: 1.0;
+}
+
+.msecondary-info {
+  background: url(../svg/info.svg);
+  background-repeat: no-repeat;
+  height: 2.6vh;
+  width: 30vh;
+  opacity: 0.4;
+}
+
+.msecondary-info:hover, .msecondary-info:focus, .msecondary-info:active {
+  background: url(../svg/info-active.svg);
+  background-repeat: no-repeat;
+  opacity: 1.0;
+}
+
+p {
+  color: white;
+  font-family: KyivTypeSans-Medium;
+  font-size: 2vh;
+  margin-bottom: 0;
+}
+
+.mdescription {
+  opacity: 0.3;
+}

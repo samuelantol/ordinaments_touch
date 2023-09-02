@@ -1,0 +1,88 @@
+@font-face {
+    font-family: KyivTypeSans-Bold;
+    src: url(./font/KyivTypeSans-Bold.woff);
+  }
+  
+@font-face {
+    font-family: KyivTypeSans-Medium;
+    src: url(./font/KyivTypeSans-Medium.woff);
+}
+
+.background {
+    display:inline-block;
+    flex-direction: column;
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom:0;
+    background-color: black;
+    opacity: 0.75;
+}
+
+.w-ordinaments-logo {
+    background: url(./gif/ordinaments.gif);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: fixed;
+    top: 20vh;
+    left: 40vh;
+    height: 16vh;
+    width: 70vh;
+    margin: 0 auto;
+    
+}
+
+.w-instruction-container {
+    display:inline-block;
+    flex-direction: column;
+    text-align: left;
+    position: fixed;
+    top: 38vh;
+    left: 40vh;
+    width: 50%;
+    margin: 0 auto;
+}
+  
+.w-instruction{
+    color: white;
+    font-family: KyivTypeSans-Bold;
+    font-size: 2.4vh;
+    margin-bottom: 2vh;
+    opacity: 1;
+}
+
+.start {
+    background: url(./svg/start.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: fixed;
+    top: 68vh;
+    left: 40vh;
+    height: 4vh;
+    width: 12vh;
+    opacity: 0.6;
+  }
+
+  .start:hover, .start:focus, .start:active {
+    background: url(./svg/start-active.svg);
+    background-repeat: no-repeat;
+    opacity: 1;
+  }
+
+  .w-secondary-info {
+    position: fixed;
+    bottom: 3vh;
+    left: 3vh;
+    background: url(./svg/info.svg);
+    background-repeat: no-repeat;
+    height: 3vh;
+    width: 30vh;
+    opacity: 0.6;
+  }
+  
+  .w-secondary-info:hover, .w-secondary-info:focus, .w-secondary-info:active {
+    background: url(./svg/info-active.svg);
+    background-repeat: no-repeat;
+    opacity: 1.0;
+  }
