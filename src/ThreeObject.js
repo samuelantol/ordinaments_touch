@@ -1,10 +1,11 @@
 import React from "react";
 import * as THREE from "three";
+import {OrbitControls} from "three/examples/jsm/controls/OrbitControls";
 import { OBJLoader } from "three/examples/jsm/loaders/OBJLoader";
 import { createNoise3D } from"simplex-noise";
 import "./three.css";
 
-let scene, camera;
+let scene, camera, controls;
 const renderer = new THREE.WebGLRenderer( { alpha: true } );
 var myObjPromise, myObjPromiseOriginal;
 
@@ -52,6 +53,7 @@ class ThreeObject extends React.Component {
     threeMount() {
         scene = new THREE.Scene();
         camera = new THREE.PerspectiveCamera( 45, window.innerWidth / window.innerHeight, 1, 2000 );
+        controls = new OrbitControls(camera, this.mount);
 
         camera.position.z =250;
 
@@ -90,9 +92,9 @@ class ThreeObject extends React.Component {
         var activeId = this.state.activeId;
         music = this.state.music;
 
-        var mouseX = 0, mouseY = 0;
-        var windowHalfX = window.innerWidth / 2;
-        var windowHalfY = window.innerHeight / 2;
+        //var mouseX = 0, mouseY = 0;
+        //var windowHalfX = window.innerWidth / 2;
+        //var windowHalfY = window.innerHeight / 2;
 
         if (music) {
             var noise = createNoise3D();
@@ -145,8 +147,8 @@ class ThreeObject extends React.Component {
         // HELPER FUNCTIONS
 
         var onWindowResize = function() {
-            windowHalfX = window.innerWidth / 2;
-            windowHalfY = window.innerHeight / 2;
+            //windowHalfX = window.innerWidth / 2;
+            //windowHalfY = window.innerHeight / 2;
         
             if (camera) {
                 camera.aspect = window.innerWidth / window.innerHeight;
@@ -156,22 +158,22 @@ class ThreeObject extends React.Component {
             }
         }
         
-        var onDocumentMouseMove = function(event) {
-            if (window.innerWidth <= 500) {
-                mouseX = ( - event.clientX + windowHalfX ) / 2;
-                mouseY = ( - event.clientY + windowHalfY ) / 2;
-            } else {
-                if (music) {
-                    mouseX = ( - event.clientX + windowHalfX ) / 8;
-                    mouseY = ( - event.clientY + windowHalfY ) / 8;
-                } else {
-                    mouseX = ( - event.clientX + windowHalfX ) / 5;
-                    mouseY = ( - event.clientY + windowHalfY ) / 5;
-                }
-            }
-        }
+        // var onDocumentMouseMove = function(event) {
+        //     if (window.innerWidth <= 500) {
+        //         mouseX = ( - event.clientX + windowHalfX ) / 2;
+        //         mouseY = ( - event.clientY + windowHalfY ) / 2;
+        //     } else {
+        //         if (music) {
+        //             mouseX = ( - event.clientX + windowHalfX ) / 8;
+        //             mouseY = ( - event.clientY + windowHalfY ) / 8;
+        //         } else {
+        //             mouseX = ( - event.clientX + windowHalfX ) / 5;
+        //             mouseY = ( - event.clientY + windowHalfY ) / 5;
+        //         }
+        //     }
+        // }
 
-        document.addEventListener( 'mousemove', onDocumentMouseMove );
+        //document.addEventListener( 'mousemove', onDocumentMouseMove );
         
 
         window.addEventListener( 'resize', onWindowResize );
@@ -241,9 +243,11 @@ class ThreeObject extends React.Component {
                 });
             }
 
+            controls.update();
+
             // if (!music) {
-                camera.position.x += ( mouseX - camera.position.x ) * .05;
-                camera.position.y += ( - mouseY - camera.position.y ) * .05;
+                // camera.position.x += ( mouseX - camera.position.x ) * .05;
+                // camera.position.y += ( - mouseY - camera.position.y ) * .05;
             // }
 
             camera.lookAt( scene.position );
