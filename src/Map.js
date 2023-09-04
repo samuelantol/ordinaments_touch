@@ -1,7 +1,7 @@
 import React from 'react';
 import mapboxgl from 'mapbox-gl';
-import './map.css';
-//import "../node_modules/mapbox-gl/dist/mapbox-gl.css"
+//import './map.css';
+import "../node_modules/mapbox-gl/dist/mapbox-gl.css"
 
 const locationLat = [
   null, null, 48.093801, null, null,
@@ -80,7 +80,7 @@ class Map extends React.PureComponent {
   }
 
   render() {
-    return <div ref={this.mapContainer} className="map-container" />
+    return <div ref={this.mapContainer} style={{height: 110 + 'vh'}} />
   }
 }
 
