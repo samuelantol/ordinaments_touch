@@ -80,7 +80,7 @@ class Map extends React.PureComponent {
   }
 
   render() {
-    return <div ref={this.mapContainer} />
+    return <div ref={this.mapContainer} className="map-container" />
   }
 }
 
