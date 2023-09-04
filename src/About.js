@@ -51,7 +51,7 @@ class About extends Component {
                         <div className={'info-container'}>
                             <div className={'instruction desc'}>Ordinaments are fragments of reality – ordinary objects which are not hard to find. The commonness of ordinaments makes them overlooked and underestimated for residents of the city. But a closer look can reveal their uniqueness.</div>
                             <div className={'instruction desc'}>Ordinaments are captured by 3D scanning technology which isolates small fragments from the surroundings, the rest is left to viewer's imagination. The sound completes the atmosphere of the specific moment.</div>
-                            <div className={'instruction desc'}>Created by <a className='link' href={'https://www.instagram.com/sam_cyan/'} rel="noreferrer" target="_blank">Samuel Antol</a> at VŠVU / AFAD</div>
+                            <div className={'instruction desc'}>Created by Samuel Antol @sam_cyan at VŠVU/AFAD</div>
                         </div>
                     </div>
     
