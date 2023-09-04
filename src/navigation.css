@@ -177,7 +177,7 @@ body, html {
   opacity: 0.5;
   position: fixed;
   top: 2.3vh;
-  right: 3vh;
+  right: 5.5vh;
 }
 
 
@@ -258,7 +258,7 @@ body, html {
 	text-align: left;
 	height: 100%;
   position: fixed;
-	top: 15vh;
+	top: 18vh;
   left: 3vh;
 }
 

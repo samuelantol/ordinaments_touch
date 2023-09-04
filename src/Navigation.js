@@ -359,7 +359,7 @@ class Navigation extends Component {
     return (
       <div
         className={musicClass}
-        onClick={this.handleMusic}
+        onClick={this.handleInfo}
       />
     );
   }
@@ -384,12 +384,12 @@ class Navigation extends Component {
           <div
             className={'secondary-map'}
           />
-        </a> */}
+        </a>
 
         <div
           className={'secondary-info'}
           onClick={this.handleInfo}
-        />
+        /> */}
       </div>      
     );
   }
@@ -408,7 +408,7 @@ class Navigation extends Component {
           {this.musicButtonBuilder()}
         </div>
         <div className='highlight'>HIGHLIGHT CATEGORY</div>
-        <div className='musicmode'>MUSIC MODE</div>
+        <div className='musicmode'>ABOUT</div>
         <div className="secondary">
           {this.secondaryBuilder()}
         </div>
