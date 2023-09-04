@@ -27,7 +27,7 @@ class About extends Component {
                         <div className='m-info-container'>
                             <div className={'m-instruction desc'}>Ordinaments are fragments of reality – ordinary objects which are not hard to find. The commonness of ordinaments makes them overlooked and underestimated for residents of the city. But a closer look can reveal their uniqueness.</div>
                             <div className={'m-instruction desc'}>Ordinaments are captured by 3D scanning technology which isolates small fragments from the surroundings, the rest is left to viewer's imagination. The sound completes the atmosphere of the specific moment.</div>
-                            <div className={'m-instruction desc'}>Created by <a className='link' href={'https://www.instagram.com/sam_cyan/'} rel="noreferrer" target="_blank">Samuel Antol</a> at&nbsp;VŠVU&nbsp;/&nbsp;AFAD</div>
+                            <div className={'m-instruction desc'}>Created by Samuel Antol @sam_cyan at VŠVU/AFAD</div>
                         </div>
                     </div>
     
@@ -58,7 +58,6 @@ class About extends Component {
                     <div className={'instruction-container'}>
                         <div className={'instruction'}>1 highlight category you’re interested in <br/><div className={'desc'}>nature, industrial, street, or waterside</div></div>
                         <div className={'instruction'}>2 discover ordinaments on the map <br/><div className={'desc'}><div className={'c c-unknown'}/> is unknown ordinament <br/><div className={'c c-discovered'}/> is discovered ordinament <br/><div className={'c c-highlighted'}/> is highlighted ordinament <br/><div className={'c c-active'}/> is currently open ordinament</div></div>
-                        <div className={'instruction'}>3 click <div className={'music'}/> in the top right corner to turn on music mode <br/><div className={'desc'}>then play your favourite music on your computer</div></div>
                     </div>
                 </div>
             );
